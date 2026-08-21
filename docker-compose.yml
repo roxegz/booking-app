@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  postgres-user:
+    image: postgres:16-alpine
+    container_name: user-db
+    environment:
+      POSTGRES_DB: user_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgrespassword
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_user_data:/var/lib/postgresql/data
+
+  postgres-resource:
+    image: postgres:16-alpine
+    container_name: resource-db
+    environment:
+      POSTGRES_DB: resource_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgrespassword
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_resource_data:/var/lib/postgresql/data
+
+  postgres-booking:
+    image: postgres:16-alpine
+    container_name: booking-db
+    environment:
+      POSTGRES_DB: booking_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgrespassword
+    ports:
+      - "5434:5432"
+    volumes:
+      - postgres_booking_data:/var/lib/postgresql/data
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: spacebooking-rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+
+volumes:
+  postgres_user_data:
+  postgres_resource_data:
+  postgres_booking_data:
