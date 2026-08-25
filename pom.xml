@@ -20,9 +20,11 @@
 
     <modules>
         <module>user-service</module>
+        <!--
         <module>resource-service</module>
         <module>booking-service</module>
         <module>api-gateway</module>
+        -->
     </modules>
 
     <properties>
@@ -39,6 +41,16 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-core</artifactId>
+            <version>10.10.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-database-postgresql</artifactId>
+            <version>10.10.0</version>
+        </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
