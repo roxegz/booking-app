@@ -1,0 +1,12 @@
+C:\Users\roxe\Documents\PROYECTOS PERSONALES\booking-app\user-service\src\main\java\com\spacebooking\userservice\infrastructure\adapters\in\web\mapper\UserWebMapper.java
+C:\Users\roxe\Documents\PROYECTOS PERSONALES\booking-app\user-service\src\main\java\com\spacebooking\userservice\infrastructure\adapters\out\persistence\SpringDataUserRepository.java
+C:\Users\roxe\Documents\PROYECTOS PERSONALES\booking-app\user-service\src\main\java\com\spacebooking\userservice\application\port\in\CreateUserUseCase.java
+C:\Users\roxe\Documents\PROYECTOS PERSONALES\booking-app\user-service\src\main\java\com\spacebooking\userservice\infrastructure\adapters\in\web\dto\CreateUserRequest.java
+C:\Users\roxe\Documents\PROYECTOS PERSONALES\booking-app\user-service\src\main\java\com\spacebooking\userservice\infrastructure\adapters\in\web\dto\UserResponse.java
+C:\Users\roxe\Documents\PROYECTOS PERSONALES\booking-app\user-service\src\main\java\com\spacebooking\userservice\infrastructure\adapters\out\persistence\UserEntity.java
+C:\Users\roxe\Documents\PROYECTOS PERSONALES\booking-app\user-service\src\main\java\com\spacebooking\userservice\infrastructure\adapters\out\persistence\UserPersistenceAdapter.java
+C:\Users\roxe\Documents\PROYECTOS PERSONALES\booking-app\user-service\src\main\java\com\spacebooking\userservice\application\service\UserService.java
+C:\Users\roxe\Documents\PROYECTOS PERSONALES\booking-app\user-service\src\main\java\com\spacebooking\userservice\UserServiceApplication.java
+C:\Users\roxe\Documents\PROYECTOS PERSONALES\booking-app\user-service\src\main\java\com\spacebooking\userservice\domain\model\User.java
+C:\Users\roxe\Documents\PROYECTOS PERSONALES\booking-app\user-service\src\main\java\com\spacebooking\userservice\domain\port\out\UserRepositoryPort.java
+C:\Users\roxe\Documents\PROYECTOS PERSONALES\booking-app\user-service\src\main\java\com\spacebooking\userservice\infrastructure\adapters\in\web\UserController.java
