@@ -1,0 +1,6 @@
+com\spacebooking\bookingservice\infrastructure\adapters\in\web\BookingController.class
+com\spacebooking\bookingservice\domain\model\Booking.class
+com\spacebooking\bookingservice\BookingServiceApplication.class
+com\spacebooking\bookingservice\infrastructure\adapters\out\persistence\BookingRepository.class
+com\spacebooking\bookingservice\infrastructure\adapters\in\web\dto\CreateBookingRequest.class
+com\spacebooking\bookingservice\infrastructure\adapters\in\web\dto\BookingResponse.class
